@@ -1,0 +1,92 @@
+input[readonly="true"] {
+    border: none;
+}
+
+body {
+    margin: 20px auto;
+    border: 1px solid;
+    max-width: 500px;
+}
+
+.input-for-add {
+    margin: 20px auto;
+    width: 50%;
+}
+
+.pagination {
+    margin: 20px auto;
+    width: 70%;
+}
+.title{
+    margin: 20px auto;
+    width: 130px;
+    font-family: Ubuntu, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+span{
+    font-family: Ubuntu, sans-serif;
+    font-size: 14px;
+}
+.value-todo {
+    width: 80%;
+}
+
+button{
+    font-family: Ubuntu, sans-serif;
+}
+.todo {
+
+    list-style-type: none;
+}
+
+.btn-add-todo{
+background-color: darkgray;
+    color: white;
+    border-radius: 10px;
+    padding: 3px 6px 3px 7px;
+    border: none;
+}
+
+.btn-delete-complete{
+    background-color: darkgray;
+    color: white;
+    border-radius: 10px;
+    padding: 3px 6px 3px 7px;
+    border: none;
+}
+
+.complete-all-todo {
+    margin: 20px;
+}
+
+.counter-todo{
+    margin: 20px;
+}
+
+.tabs-todo {
+    margin: 20px auto;
+    width: 40%;
+}
+.btn-delete-todo{
+    background: red;
+    border: none;
+    border-radius: 5px;
+    color:white;
+}
+
+
+.checked{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.active-tab{
+    background-color: darkgray;
+    box-shadow: 0 0 15px 0 black;
+    color:white;
+}
+.active-page{
+    text-decoration: underline;
+    color:red;
+}
